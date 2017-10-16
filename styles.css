@@ -104,8 +104,15 @@ a {
 
 .section {
     width: 550px;
-    margin-left: 150px;
+    margin: 0 auto;
     padding-bottom: 80px;
+    text-align: justify;
+    line-height: 22px;  
     
-    line-height: 22px;   
+    tex
+    
+}
+
+article .section_legend {
+    height: 500px;
 }
