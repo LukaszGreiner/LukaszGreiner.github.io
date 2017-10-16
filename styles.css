@@ -74,7 +74,6 @@ a {
 
 
 .topbar_container .header_nav a:hover {
-    font-weight: 600;
     text-decoration: underline;
 }
 
@@ -105,14 +104,19 @@ a {
 .section {
     width: 550px;
     margin: 0 auto;
-    padding-bottom: 80px;
+    padding-bottom: 40px;;
     text-align: justify;
-    line-height: 22px;  
-    
-    tex
+    line-height: 25px;  
     
 }
 
 article .section_legend {
     height: 500px;
+}
+
+.title-p{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #716baa;
+    margin: 10px 0;
 }
