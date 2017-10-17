@@ -6,6 +6,7 @@
 
 body {
     color: #fff;
+    background-color: #4a4e77;
 }
 
 b {
@@ -59,12 +60,6 @@ a {
 
     font-size: 1.7em;
     
-}
-
-@media screen and (max-width: 600) {
-    .header__nav {
-     flex-direction: column !important;
-    }
 }
 
 .header_nav a {
