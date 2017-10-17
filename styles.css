@@ -77,7 +77,7 @@ a {
 
 .header_nav .active  {
     color: #23914d;
-    
+    text-decoration: underline;
 }
 
 .article {
