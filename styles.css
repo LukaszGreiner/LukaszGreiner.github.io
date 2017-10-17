@@ -55,16 +55,20 @@ a {
     display: flex;
     flex-direction: row;
     
-    margin-left: 20px;
-    
     list-style-type: none;
 
     font-size: 1.7em;
     
 }
 
+@media screen and (max-width: 600) {
+    .header__nav {
+     flex-direction: column !important;
+    }
+}
+
 .header_nav a {
-    margin-left: 15px;
+    margin: 0 6px;
     
     text-decoration: none;
     font-weight: 500;
@@ -120,3 +124,4 @@ article .section_legend {
     color: #716baa;
     margin: 10px 0;
 }
+
