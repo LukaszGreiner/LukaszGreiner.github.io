@@ -71,13 +71,13 @@ a {
    
 }
 
-
 .topbar_container .header_nav a:hover {
     text-decoration: underline;
 }
 
 .header_nav .active  {
-    color: #23914d ;
+    color: #23914d;
+    
 }
 
 .article {
